@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Truong Tan Trung | Fullstack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">Trung Truong</div>
+
+          <div class="nav-links">
+            <a href="#overview">Overview</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="overview" class="hero">
+      <div>
+        <img class="avatar" src="/assets/my_avatar.png" alt="avatar" />
+
+        <h1>Truong Tan Trung</h1>
+
+        <p>
+          Fullstack Developer specializing in ReactJS, NodeJS, MongoDB and
+          Electron. Passionate about building modern applications with clean UI
+          and scalable architecture.
+        </p>
+
+        <div class="buttons">
+          <a href="#projects" class="btn btn-primary"> View Projects </a>
+
+          <a href="./assets/TRUONG_TAN_TRUNG_CV.pdf" class="btn btn-outline" target="_blank"> View CV </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title hidden">Projects</h2>
+
+        <!-- COMPANY PROJECTS -->
+        <div class="project-category hidden">
+          <h3 class="category-title">Company Projects</h3>
+
+          <p class="category-description">
+            Projects developed and maintained during my professional career.
+          </p>
+
+          <div class="project-grid" id="companyProjects"></div>
+        </div>
+
+        <!-- PERSONAL PROJECTS -->
+        <div class="project-category hidden">
+          <h3 class="category-title">Personal Projects</h3>
+
+          <p class="category-description">
+            Projects built independently to improve my technical skills and
+            explore new technologies.
+          </p>
+
+          <div class="project-grid" id="personalProjects"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container contact hidden">
+        <h2 class="section-title">Contact</h2>
+
+        <p>Email: trungtt089@gmail.com</p>
+        <p>Phone: 0789688017</p>
+
+        <div class="socials">
+          <a href="">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Facebook</a>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
