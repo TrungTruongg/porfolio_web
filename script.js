@@ -1,6 +1,6 @@
 const personalProjects = [
   {
-    title: "Project Management System",
+    title: "My-Task",
     description: "Task and project management platform.",
     image: "./assets/mytask.png",
     link: "https://project-management-system-orpin.vercel.app/",
