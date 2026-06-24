@@ -20,6 +20,13 @@ const personalProjects = [
     link: "https://shopelo.vercel.app/",
     tech: ["React", "Redux", "NodeJS", "MongoDB"],
   },
+  {
+    title: "Restoran",
+    description: "Restaurant landing page developed with ReactJs. Built as a frontend practice project to improve UI composition, responsive layouts, and landing page development skills.",
+    image: "./assets/restoran.png",
+    link: "https://restoran-delta-ashy.vercel.app/",
+    tech: ["React", "Shadcn UI"],
+  },
 ];
 
 const companyProjects = [
